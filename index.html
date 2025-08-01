@@ -1,90 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Professional Summary</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lakshman Teja - Data Engineer</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f9f9f9;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #0f172a;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    header p {
+      margin: 0.5rem 0 0;
+      font-size: 1.2rem;
+    }
+    main {
+      max-width: 900px;
+      margin: auto;
+      padding: 2rem;
+    }
+    section {
+      margin-bottom: 2rem;
+    }
+    h2 {
+      color: #0f172a;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 0.5rem;
+    }
+    .card {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      margin-top: 1rem;
+    }
+    footer {
+      background: #0f172a;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+    a {
+      color: #0ea5e9;
+      text-decoration: none;
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <!-- Header Section -->
-        <header class="header">
-            <div class="profile-container">
-                <div class="profile-image">
-                    <i class="fas fa-user"></i>
-                </div>
-                <h1 class="name">Your Name</h1>
-                <p class="title">Professional Title</p>
-                <div class="social-links">
-                    <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
-                    <a href="#" target="_blank"><i class="fab fa-github"></i></a>
-                    <a href="#" target="_blank"><i class="fas fa-envelope"></i></a>
-                </div>
-            </div>
-        </header>
+  <header>
+    <h1>Lakshman Teja</h1>
+    <p>Data Engineer | AWS | Spark | PostgreSQL</p>
+  </header>
 
-        <!-- Main Content -->
-        <main class="main-content">
-            <section class="summary-section">
-                <h2 class="section-title">
-                    <i class="fas fa-user-tie"></i>
-                    Professional Summary
-                </h2>
-                <div class="summary-content">
-                    <p>Your professional summary goes here. Make it compelling and highlight your key skills, experience, and what makes you unique in your field.</p>
-                    <p>Add 2-3 paragraphs about your background, expertise, and career goals.</p>
-                    <p>Include specific achievements, technologies you work with, and your professional value proposition.</p>
-                </div>
-            </section>
+  <main>
+    <section>
+      <h2>About Me</h2>
+      <div class="card">
+        <p>Hi, I’m Lakshman Teja, a Data Engineer with 3 years of experience working on AWS, Spark, and PostgreSQL. I specialize in building scalable data pipelines, automation, and cloud-based solutions.</p>
+      </div>
+    </section>
 
-            <section class="skills-section">
-                <h2 class="section-title">
-                    <i class="fas fa-code"></i>
-                    Key Skills
-                </h2>
-                <div class="skills-grid">
-                    <div class="skill-item">
-                        <i class="fas fa-laptop-code"></i>
-                        <span>Web Development</span>
-                    </div>
-                    <div class="skill-item">
-                        <i class="fas fa-database"></i>
-                        <span>Data Analysis</span>
-                    </div>
-                    <div class="skill-item">
-                        <i class="fas fa-project-diagram"></i>
-                        <span>Project Management</span>
-                    </div>
-                    <div class="skill-item">
-                        <i class="fas fa-users"></i>
-                        <span>Team Leadership</span>
-                    </div>
-                </div>
-            </section>
+    <section>
+      <h2>Skills</h2>
+      <div class="card">
+        <ul>
+          <li>AWS (Lambda, S3, DynamoDB, SQS, SNS)</li>
+          <li>Apache Spark & Databricks</li>
+          <li>PostgreSQL & Data Modeling</li>
+          <li>Python & PySpark</li>
+          <li>ETL Development & Automation</li>
+        </ul>
+      </div>
+    </section>
 
-            <section class="contact-section">
-                <h2 class="section-title">
-                    <i class="fas fa-address-card"></i>
-                    Get In Touch
-                </h2>
-                <div class="contact-info">
-                    <p><i class="fas fa-envelope"></i> your.email@example.com</p>
-                    <p><i class="fas fa-map-marker-alt"></i> Your Location</p>
-                    <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
-                </div>
-            </section>
-        </main>
+    <section>
+      <h2>Projects</h2>
+      <div class="card">
+        <p><strong>TransactionHubOCR</strong>: Automated data extraction from BOL documents using AWS Lambda and DynamoDB.</p>
+        <p><strong>RightAngle Acknowledgment</strong>: Built a scalable Lambda function to handle RA acknowledgments with unique transaction tracking.</p>
+      </div>
+    </section>
 
-        <!-- Footer -->
-        <footer class="footer">
-            <p>&copy; 2024 Your Name. All rights reserved.</p>
-            <p class="last-updated">Last Updated: <span id="current-date"></span></p>
-        </footer>
-    </div>
+    <section>
+      <h2>Contact</h2>
+      <div class="card">
+        <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></p>
+        <p>GitHub: <a href="https://github.com/yourgithub" target="_blank">github.com/yourgithub</a></p>
+      </div>
+    </section>
+  </main>
 
-    <script src="script.js"></script>
+  <footer>
+    <p>© 2025 Lakshman Teja | Built with ❤️</p>
+  </footer>
 </body>
 </html>
